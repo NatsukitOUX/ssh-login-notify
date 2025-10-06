@@ -43,5 +43,5 @@ Make sure all dependencies are installed and configured before using the script.
 ```bash
 sudo cp ssh-login-notify.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/ssh-login-notify.sh
-
-2. 
+```
+2.
