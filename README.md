@@ -70,6 +70,6 @@ See examples/msmtprc.example for a template.
 
 ## Acknowledgements
 
-Inspired by: ( https://linuxiac.com/how-to-get-notified-on-ssh-logins-on-linux/)
+Inspired by:[Linuxiac – How to Get Notified on SSH Logins on Linux](https://linuxiac.com/how-to-get-notified-on-ssh-logins-on-linux/) 
 
 
