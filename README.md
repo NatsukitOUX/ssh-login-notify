@@ -43,5 +43,31 @@ Make sure all dependencies are installed and configured before using the script.
 ```bash
 sudo cp ssh-login-notify.sh /usr/local/bin/
 sudo chmod +x /usr/local/bin/ssh-login-notify.sh
+``` 
+2. Edit /etc/pam.d/sshd and add the following line after other session lines:
+```bash
+session optional pam_exec.so /usr/local/bin/ssh-login-notify.sh
+
 ```
-2.
+3. Configure SMTP (e.g., using msmtp) with examples/msmtprc.example.
+
+4. Test by logging in via SSH from another machine.
+
+## Security & Best Practices
+
+Script must be owned by root and writable only by root
+
+Email credentials should be stored securely (chmod 600)
+
+Quote variables to prevent injection vulnerabilities
+
+Test in a safe environment before deploying on production servers
+
+
+## Example SMTP Configuration
+
+See examples/msmtprc.example for a template.
+
+## Acknowledgements
+
+Inspired by: Linuxiac – How to Get Notified on SSH Logins on Linux
