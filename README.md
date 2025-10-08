@@ -70,7 +70,7 @@ See examples/msmtprc.example for a template.
 
 
 ## Result 
-(./examples/ssh_notification.png)
+![alt text][https://github.com/NatsukitOUX/ssh-login-notify/blob/main/ssh-login-notify.sh]
 ## Acknowledgements
 
 Inspired by:[Linuxiac – How to Get Notified on SSH Logins on Linux](https://linuxiac.com/how-to-get-notified-on-ssh-logins-on-linux/) 
